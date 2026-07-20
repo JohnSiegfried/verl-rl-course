@@ -1,0 +1,24 @@
+{
+  "nodes": [
+    {"id": "root", "type": "text", "text": "# verl RL 后训练\n企业级 · GRPO 主线 · 双档", "x": 0, "y": 0, "width": 260, "height": 100, "color": "4"},
+    {"id": "p1", "type": "text", "text": "**Phase 1 地基**\n全景/环境/参数量/量化/显存精算", "x": -520, "y": 220, "width": 240, "height": 110, "color": "1"},
+    {"id": "p2", "type": "text", "text": "**Phase 2 数学**\n策略梯度/PPO/KL/优势/GRPO推导", "x": -250, "y": 240, "width": 240, "height": 110, "color": "2"},
+    {"id": "p3", "type": "text", "text": "**Phase 3 架构数据流**\nDataProto/parquet/batch/HybridEngine", "x": 20, "y": 240, "width": 250, "height": 110, "color": "3"},
+    {"id": "p4", "type": "text", "text": "**Phase 4 首个 GRPO**\nGSM8K双档/参数精讲/OOM排查", "x": 300, "y": 240, "width": 240, "height": 110, "color": "5"},
+    {"id": "p5", "type": "text", "text": "**Phase 5 分布式**\nDP/TP/PP/SP/FSDP/Megatron/显存重分配", "x": -390, "y": 430, "width": 260, "height": 110, "color": "6"},
+    {"id": "p6", "type": "text", "text": "**Phase 6 Reward与评测**\nreward设计/hacking/评测集/评估体系", "x": -100, "y": 450, "width": 250, "height": 110, "color": "1"},
+    {"id": "p7", "type": "text", "text": "**Phase 7 生产化**\n调优/调参手册/异常诊断/上线", "x": 180, "y": 450, "width": 240, "height": 110, "color": "2"}
+  ],
+  "edges": [
+    {"id": "e1", "fromNode": "root", "fromSide": "bottom", "toNode": "p1", "toSide": "top"},
+    {"id": "e2", "fromNode": "root", "fromSide": "bottom", "toNode": "p2", "toSide": "top"},
+    {"id": "e3", "fromNode": "root", "fromSide": "bottom", "toNode": "p3", "toSide": "top"},
+    {"id": "e4", "fromNode": "root", "fromSide": "bottom", "toNode": "p4", "toSide": "top"},
+    {"id": "e5", "fromNode": "p1", "fromSide": "bottom", "toNode": "p5", "toSide": "top"},
+    {"id": "e6", "fromNode": "p2", "fromSide": "bottom", "toNode": "p5", "toSide": "top"},
+    {"id": "e7", "fromNode": "p3", "fromSide": "bottom", "toNode": "p6", "toSide": "top"},
+    {"id": "e8", "fromNode": "p4", "fromSide": "bottom", "toNode": "p6", "toSide": "top"},
+    {"id": "e9", "fromNode": "p5", "fromSide": "right", "toNode": "p7", "toSide": "left"},
+    {"id": "e10", "fromNode": "p6", "fromSide": "right", "toNode": "p7", "toSide": "left"}
+  ]
+}
