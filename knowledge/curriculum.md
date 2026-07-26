@@ -26,10 +26,10 @@ status: active
 | 1.2 | 环境搭建：Docker 镜像、verl 安装、依赖 | ✅ |
 | 1.3 | 模型参数量计算：dense/MoE 手算公式 | ✅ |
 | 1.4 | 量化基础：FP16/BF16/FP8/INT8/INT4 显存与精度 | ✅ |
-| 1.5 | 显存分配精算：weights/grads/optim/act/KV + verl 特有 ref/reward | ⬜ |
+| 1.5 | 显存分配精算：weights/grads/optim/act/KV + verl 特有 ref/reward | ✅ |
 | 1.6 | 选模型 + 选显卡实战：从显存反推配置，避免 OOM | ⬜ |
 
-**完成数**：4/6　**进度**：███████░░░ 67%
+**完成数**：5/6　**进度**：████████░░ 83%
 
 ---
 
