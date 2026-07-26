@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9fcc6d96acbb7ea4",
+        "id": "526e93d34cc63cdd",
         "type": "tabs",
         "children": [
           {
-            "id": "4c392495daf89452",
+            "id": "df0eb8864d744c2a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "knowledge/01-foundations/1.4-量化基础.md",
+                "file": "knowledge/01-foundations/1.5-显存分配精算.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.4-量化基础"
+              "title": "1.5-显存分配精算"
             }
           }
         ]
@@ -183,15 +183,15 @@
       "bases:新建数据库": false
     }
   },
-  "active": "4c392495daf89452",
+  "active": "df0eb8864d744c2a",
   "lastOpenFiles": [
+    "knowledge/01-foundations/1.4-量化基础.md",
+    "knowledge/01-foundations/1.5-显存分配精算.md",
+    "knowledge/01-foundations/1.3-模型参数量计算.md",
     "knowledge/_index.md.tmp.1328740.0c764b07d2d6",
     "knowledge/_index.md.tmp.1328740.5091a834e66b",
     "knowledge/curriculum.md.tmp.1328740.4b0bc63ad0f1",
     "knowledge/curriculum.md.tmp.1328740.e8ffde689d70",
-    "knowledge/01-foundations/1.5-显存分配精算.md",
-    "knowledge/01-foundations/1.4-量化基础.md",
-    "knowledge/01-foundations/1.3-模型参数量计算.md",
     "knowledge/01-foundations/1.1-RL后训练全景.md",
     "knowledge/curriculum.md.tmp.1328740.281a6273480b",
     "knowledge/_index.md.tmp.1328740.09644b12141a",
@@ -203,7 +203,6 @@
     "knowledge/_index.md",
     "knowledge/_index.md.tmp.1328740.5470d3ddd253",
     "knowledge/_index.md.tmp.1328740.f32a59976550",
-    "knowledge/curriculum.md.tmp.1328740.ad5eaacadb07",
     "未命名.md",
     "README.md"
   ]
